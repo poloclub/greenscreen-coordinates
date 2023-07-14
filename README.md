@@ -19,7 +19,7 @@ The program also visualizes the green screen coordinates of the old data as red 
 python3 gs_homography.py {json file}
 ```
 
-
+While running the program it is necessary to ensure the reference image from `old_data` has the accurate green screen coordinates
 
 
 
