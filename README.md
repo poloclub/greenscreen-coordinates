@@ -14,4 +14,4 @@ The green screen coordinates in the "new_data" path will be modified
 
 The older and newer coordinates can be compared by the images in the "rgb_w_coords" folder in each video in the new dataset. By default the old coordinates are colored red , and the new coordinates are colored yellow.
 
-![zoomed in result images](image111.jpg)
+![zoomed in result images](image_comparison.jpg)
