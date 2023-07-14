@@ -1,0 +1,37 @@
+{
+"homography":{
+    "orb_max_matches": 5e3 ,
+    "orb_max_iters" : 3e3 ,
+    "orb_scale_factor" : 1.1 , 
+    "orb_levels" : 10,
+    "orb_good_match_percent" : 0.2 ,
+    "orb_gaussian_ksize" :1
+},
+"infer_from_first_frame": "no",
+"data":{
+    "new_data/video0000/" : "00000052",
+    "new_data/video0001/" : "00000202",
+    "new_data/video0002/" : "00000010",
+    "new_data/video0003/" : "00000202",
+    "new_data/video0004/" : "00000193",
+    "new_data/video0005/" : "00000271",
+    "new_data/video0006/" : "00000193",
+    "new_data/video0007/" : "00000271",
+    "new_data/video0008/" : "00000001",
+    "new_data/video0009/" : "00000109",
+    "new_data/video0010/" : "00000001",
+    "new_data/video0011/" : "00000121",
+    "new_data/video0012/" : "00000001",
+    "new_data/video0013/" : "00000124",
+    "new_data/video0014/" : "00000130",
+    "new_data/video0015/" : "00000148",
+    "new_data/video0016/" : "00000289",
+    "new_data/video0017/" : "00000289",
+    "new_data/video0018/" : "00000289",
+    "new_data/video0019/" : "00000289"
+},
+
+"old_data_path":"data/dev",
+"new_data_path":"new_data"
+
+}
