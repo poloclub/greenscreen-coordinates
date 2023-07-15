@@ -3,7 +3,7 @@
 ## What does this code do?
 The Python program [gs_homography.py](gs_homography.py) computes the coordinates of the 4 corners of the green screen on each video frame in the videos of the [multi-object tracking scenario in Armory](https://github.com/twosixlabs/armory/blob/master/armory/data/adversarial/carla_mot_dev.py), **assuming accurate green screen coordinates are present on the reference frame of the video**. 
 
-The reference frame can be either the first frame of the video, or explicity provided as a [parameter](homography.json).
+The reference frame can either be the first frame of the video, or explicity provided as a [parameter](homography.json).
 
 ## Why write this code?
 We develop this program because we have observed that the existing green screen coordinates are not stationary in the virtual world of some video frames, causing the green screen (or patch that would be placed on the green screen) to "move."
